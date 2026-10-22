@@ -1,0 +1,11 @@
+# Kernel build output directories
+/out/
+/output/
+/dist/
+
+# Editor / OS noise
+*.swp
+*~
+.DS_Store
+.idea/
+.vscode/

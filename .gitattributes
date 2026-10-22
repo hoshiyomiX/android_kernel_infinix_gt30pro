@@ -1,0 +1,27 @@
+# Cross-platform text normalization
+* text=auto
+
+# Always LF
+*.sh text eol=lf
+*.bzl text eol=lf
+BUILD text eol=lf
+WORKSPACE text eol=lf
+MODULE.bazel text eol=lf
+
+# Binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gz binary
+*.xz binary
+*.dtb binary
+*.dtbo binary
+*.img binary
+*.pem binary
+*.a binary
+*.so binary
+
+# GitHub Linguist — exclude prebuilt/vendored trees from language statistics
+kernel/prebuilts/** linguist-vendored
+kernel/external/** linguist-vendored
